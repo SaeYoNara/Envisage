@@ -1,2 +1,2 @@
 # NewDiscordBot
-just a bot in discord.js (still in progress)
+just a small project discord bot in javascript  (still in progress)
