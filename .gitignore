@@ -1,6 +1,6 @@
-node_modules
 #secret
 .env
+config.env
 # Logs
 logs
 *.log
