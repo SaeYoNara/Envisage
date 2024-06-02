@@ -1,5 +1,5 @@
 // Load environment variables from .env file
-require('dotenv').config({ path: './config.env' });
+require('dotenv').config({ path: './.env' });
 
 // Require the necessary discord.js classes
 const { Client, Events, GatewayIntentBits } = require('discord.js');
