@@ -3,11 +3,6 @@ require('dotenv').config();
 
 // Require the necessary discord.js classes
 const { Client, Events, GatewayIntentBits } = require('discord.js');
-// Check if the token is correctly loaded
-if (!token) {
-    console.error("Token is not defined. Please check your .env file.");
-    process.exit(1);
-}
 
 // Create a new client instance
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
