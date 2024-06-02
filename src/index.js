@@ -3,10 +3,6 @@ require('dotenv').config();
 
 // Require the necessary discord.js classes
 const { Client, Events, GatewayIntentBits } = require('discord.js');
-
-// Retrieve the token from the environment variables
-const token = process.env.TOKEN;
-
 // Check if the token is correctly loaded
 if (!token) {
     console.error("Token is not defined. Please check your .env file.");
